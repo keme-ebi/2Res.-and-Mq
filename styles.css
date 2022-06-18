@@ -174,8 +174,8 @@ p {
 /* overlapping div */
 .middle-4 {
   position: absolute;
-  bottom: -300px;
-  margin: 200px;
+  bottom: -420px;
+  margin: 300px;
   padding: 50px 100px 50px 100px;
   text-align: center;
   background-color: white;
