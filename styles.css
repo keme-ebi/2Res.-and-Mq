@@ -285,6 +285,7 @@ i:active {
   #logo,
   #top-button {
     width: 30%;
+    transition: width 2s;
   }
   #top-button {
     padding: 5px;
@@ -314,9 +315,11 @@ i:active {
   }
   .text button {
     width: 70%;
+    transition: width 2s;
   }
   .img {
     width: 100%;
+    transition: width 2s;
   }
 
   /* main */
@@ -326,6 +329,7 @@ i:active {
   /* middle */
   .middle div {
     flex-direction: column;
+    transition: width 2s;
   }
   .middle .middle-1,
   .middle .middle-3 {
@@ -353,6 +357,7 @@ i:active {
     padding: 20px;
     margin: 20px;
     bottom: -150px;
+    transition: width 2s;
   }
   .middle-4 button {
     padding: 10px;
@@ -394,6 +399,7 @@ i:active {
   #logo,
   #top-button {
     width: 20%;
+    transition: width 2s;
   }
   .text-img {
     padding: 10px;
@@ -408,6 +414,7 @@ i:active {
   .text button {
     margin: 10px;
     width: 60%;
+    transition: width 2s;
   }
   .img {
     padding: 0;
@@ -434,6 +441,7 @@ i:active {
     margin: 50px;
     bottom: -150px;
     left: 0;
+    transition: 2s;
   }
 
   .middle-4 button {
