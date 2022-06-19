@@ -124,13 +124,13 @@ main {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
   margin-bottom: 40px;
-  padding: 0px;
+  padding: 50px;
 }
 .middle-1 .m1-text,
 .middle-2 .m2-text,
 .middle-3 .m3-text {
   width: 100%;
-  padding: 40px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -138,24 +138,25 @@ main {
 .middle-2 .m2-img,
 .middle-3 .m3-img {
   width: 100%;
-  padding: 50px;
+  padding: 20px;
 }
 .middle-1 > .m1-img > img,
 .middle-2 > .m2-img > img,
 .middle-3 > .m3-img > img {
   width: 100%;
 }
-.m1-text > h1,
+.m1-text > h2,
 p,
-.m2-text > h1,
+.m2-text > h2,
 p,
-.m3-text > h1,
+.m3-text > h2,
 p {
   width: 100%;
+  margin: 10px;
 }
-.m1-text > h1,
-.m2-text > h1,
-.m3-text > h1 {
+.m1-text > h2,
+.m2-text > h2,
+.m3-text > h2 {
   font-family: "Poppins", sans-serif;
   color: hsl(192, 100%, 9%);
   font-weight: 600;
@@ -173,16 +174,17 @@ p {
 }
 /* overlapping div */
 .middle-4 {
+  width: 50%;
   position: absolute;
-  bottom: -420px;
-  margin: 300px;
+  bottom: -340px;
+  margin: 240px;
   padding: 50px 100px 50px 100px;
   text-align: center;
   background-color: white;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
 }
-.middle-4 h1 {
+.middle-4 h2 {
   width: 100%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -198,7 +200,7 @@ p {
   color: hsl(193, 100%, 96%);
   border: 2px solid hsl(322, 76%, 72%);
   border-radius: 30px;
-  box-shadow: 4px 4px hsla(323, 68%, 82%, 0.712);
+  box-shadow: 2px 2px hsla(323, 68%, 82%, 0.712);
   margin: 20px;
   cursor: pointer;
 }
@@ -341,9 +343,9 @@ i:active {
     text-align: center;
     padding: 20px;
   }
-  .m1-text > h1,
-  .m2-text > h1,
-  .m3-text > h1 {
+  .m1-text > h2,
+  .m2-text > h2,
+  .m3-text > h2 {
     padding-left: 0;
   }
   .m1-text > p,
@@ -354,15 +356,22 @@ i:active {
 
   /* overlapping div */
   .middle-4 {
-    padding: 20px;
-    margin: 20px;
-    bottom: -150px;
+    width: 90%;
+    padding: 30px;
+    margin: 0;
+    bottom: -70px;
     transition: width 2s;
   }
-  .middle-4 button {
-    padding: 10px;
-    font-weight: 400;
+  .middle-4 h2 {
+    font-size: 16px;
     margin: 10px;
+  }
+  .middle-4 button {
+    width: 60%;
+    padding: 5px;
+    font-weight: 400;
+    margin: 15px;
+    transition: 2s;
   }
 
   /* footer */
@@ -437,15 +446,16 @@ i:active {
 
   /* overlapping div */
   .middle-4 {
+    width: 70%;
     padding: 25px 50px 25px 50px;
-    margin: 50px;
-    bottom: -150px;
+    margin: 110px;
+    bottom: -180px;
     left: 0;
     transition: 2s;
   }
 
   .middle-4 button {
-    padding: 20px;
+    padding: 15px;
     margin: 20px;
   }
 
@@ -460,5 +470,20 @@ i:active {
   }
   i {
     margin: 5px;
+    margin-bottom: 70px;
+  }
+}
+
+/* laptop 1000px and above*/
+@media screen and (max-width:1400px) and (min-width:1000px) {
+  .text button{
+    width: 50%;
+  }
+  .middle-4{
+    margin: 170px;
+    bottom: -280px;
+  }
+  .middle-4 button{
+    width: 60%;
   }
 }
