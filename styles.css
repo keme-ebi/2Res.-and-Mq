@@ -199,10 +199,10 @@ p {
 }
 /* overlapping div */
 .middle-4 {
-  width: 50%;
+  width: 60%;
   position: absolute;
   bottom: -340px;
-  margin: 240px;
+  margin: 200px;
   padding: 50px 100px 50px 100px;
   text-align: center;
   background-color: white;
@@ -515,10 +515,10 @@ i:active {
     width: 50%;
   }
   .middle-4{
-    margin: 170px;
-    bottom: -280px;
+    margin: 100px;
+    bottom: -200px;
   }
   .middle-4 button{
-    width: 60%;
+    width: 70%;
   }
 }
